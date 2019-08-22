@@ -12,6 +12,8 @@
 		030CD575230E41C500DA90BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030CD573230E41C500DA90BA /* Main.storyboard */; };
 		030CD577230E41C700DA90BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030CD576230E41C700DA90BA /* Assets.xcassets */; };
 		030CD57A230E41C700DA90BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030CD578230E41C700DA90BA /* LaunchScreen.storyboard */; };
+		030CD582230E448700DA90BA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD581230E448700DA90BA /* ModelData.swift */; };
+		030CD584230E46F900DA90BA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD583230E46F900DA90BA /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		030CD576230E41C700DA90BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030CD579230E41C700DA90BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030CD57B230E41C700DA90BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030CD581230E448700DA90BA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		030CD583230E46F900DA90BA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				030CD576230E41C700DA90BA /* Assets.xcassets */,
 				030CD578230E41C700DA90BA /* LaunchScreen.storyboard */,
 				030CD57B230E41C700DA90BA /* Info.plist */,
+				030CD581230E448700DA90BA /* ModelData.swift */,
+				030CD583230E46F900DA90BA /* HTTPClient.swift */,
 			);
 			path = GCDPractice;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				030CD572230E41C500DA90BA /* ViewController.swift in Sources */,
 				030CD570230E41C500DA90BA /* AppDelegate.swift in Sources */,
+				030CD584230E46F900DA90BA /* HTTPClient.swift in Sources */,
+				030CD582230E448700DA90BA /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
